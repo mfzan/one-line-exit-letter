@@ -4,6 +4,9 @@
 The program writes a single deadpan resignation line to /output/entry.txt:
 an employee quits on the spot after learning the office dog was promoted
 above them, and refuses to take orders from someone who licks the clients.
+
+The letter is written with no trailing newline, so the file holds exactly
+one line (133 characters, inside the bounty cap of 140).
 """
 
 import os
